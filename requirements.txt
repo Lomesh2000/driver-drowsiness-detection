@@ -1,7 +1,7 @@
-Flask == 2.0.1
-keras == 2.6.0
-numpy == 1.20.3
-opencv_python == 4.4.0.46
-pygame == 2.0.0.py: 10
+Flask 
+keras 
+numpy 
+opencv_python 
+pygame 
 tensorflow-cpu 
 gunicorn
