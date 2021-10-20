@@ -4,3 +4,4 @@ numpy == 1.20.3
 opencv_python == 4.4.0.46
 pygame == 2.0.0.py: 10
 tensorflow-cpu 
+gunicorn
