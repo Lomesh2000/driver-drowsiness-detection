@@ -6,11 +6,14 @@ This can be used by riders who tend to drive for a longer period of time that ma
 ### Description 📌
 A computer vision system that can automatically detect driver drowsiness in a real-time video stream and then play an alarm if the driver appears to be drowsy
 
-### Dependencies 🧗‍♂️
-1) import cv2
-2) import tensorflow
-3) import keras
-4) import numpy
+### Packages used 🧗‍♂️
+1)  `opencv-python`
+2)  `tensorflow`
+3)  `keras`
+4)  `numpy`
+5)  `flask`
+6)  `numpy`   
+7)  `pygame`
 
 # Drowsiness Detection WebAPP
 <img src="latest.gif" width="300" height="430">
