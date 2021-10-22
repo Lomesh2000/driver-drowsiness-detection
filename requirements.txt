@@ -12,4 +12,4 @@ itsdangerous==0.24
 Jinja2>=2.10.1
 Werkzeug>=0.15
 imutils==0.5.3
-scipy==1.1.0
+
