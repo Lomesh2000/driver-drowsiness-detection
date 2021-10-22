@@ -2,4 +2,4 @@
 ##### driver
 
 
-![](latest.gif){:height="50%" width="50%"}
+![](latest.gif&s=100)
