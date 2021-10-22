@@ -6,7 +6,7 @@ This can be used by riders who tend to drive for a longer period of time that ma
 ### Description 📌
 A computer vision system that can automatically detect driver drowsiness in a real-time video stream and then play an alarm if the driver appears to be drowsy
 
-### Dependencies
+### Dependencies 🧗‍♂️
 1) import cv2
 2) import tensorflow
 3) import keras
@@ -17,6 +17,11 @@ A computer vision system that can automatically detect driver drowsiness in a re
 
 # MODEL ARCHITECTURE
 ![](images-gifs/new_model.jpg.png)
+
+# Algorithm 
+Here we are keeping a score(with a variable `score`) for the closed and opened eye predicted frames by the model.
+`score` variable is decreased by 1 when opened eyes are predicted and increased by 1 if closed eyes are predicted.
+If model predicted five consecutive `drowsy`(or closed eyes) frames then it will raise an alarm and will give a warning 
 
 
 ### Execution 🐉
