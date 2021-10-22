@@ -11,8 +11,8 @@ from tensorflow.python.platform.tf_logging import debug
 
 app=Flask(__name__)
 cam = cv2.VideoCapture(0)
-mixer.init()
-sound=mixer.Sound('alarm.wav')
+#mixer.init()
+#sound=mixer.Sound('alarm.wav')
 #sound.play()
 #time.sleep(1)
 #sound.stop()
@@ -109,7 +109,8 @@ def get_frames(cam,leye,reye,count,score,thicc,font,face,path,rpred,lpred):
                 #person is feeling sleepy so we beep the alarm
                 #cv2.imwrite(os.path.join(path,'image.jpg'),frame)
                 try:
-                    sound.play()
+                    #sound.play()
+                    cv2.putText(frame,"Drowsy",(100,100),font,1,(225,250,255),1,cv2.LINE_AA)
         
                 except:  # isplaying = False
                     pass
