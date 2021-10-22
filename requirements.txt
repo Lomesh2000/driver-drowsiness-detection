@@ -2,7 +2,7 @@ click==6.7
 Flask==1.1.2 
 flask_cors 
 flask_ngrok 
-opencv-python==4.5.4
+opencv-python==4.5.4.58
 keras == 2.6.0
 numpy == 1.19.2
 pygame == 2.0.0
