@@ -23,6 +23,6 @@ A computer vision system that can automatically detect driver drowsiness in a re
 To run the code, type `python app.py`
 
 ```
-python Drowsiness_Detection.py
+python app.py
 ```
 
